@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="script.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Lektion 2</h1>
+    <p>Valkommen till sidan</p>
+    <div>
+      Tryck på knappen:<button type="button" onclick="clickCounter()">
+        Räkna klick
+      </button>
+    </div>
+    <br />
+    <div>
+      Testa prompt:
+      <button type="button" onclick="hello()">Hello</button>
+    </div>
+    <br />
+    <p>
+      Vad heter du ? <input type="text" id="name-form" />
+      <button onclick="nameHandler()">Ok</button>
+    </p>
+    <div
+      id="name-output"
+      style="color: red; font-weight: bold; border-radius: 5px"
+    ></div>
+  </body>
+</html>
