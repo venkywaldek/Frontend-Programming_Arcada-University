@@ -1,10 +1,9 @@
+document.getElementById('btn').addEventListener('click', timer);
 function timer() {
-  const trainingTime = Number(document.getElementById('inMin').value);
-
-  console.log(trainingTime);
-
-  console.log(trainingTime);
   let greeting = '';
+  const trainingTime = Number(document.getElementById('inMin').value);
+  console.log(trainingTime);
+
   const minTime = 30;
   const maxTime = 120;
   if (isNaN(trainingTime)) {
@@ -12,17 +11,13 @@ function timer() {
     return;
   }
 
-  if (trainingTime == minTime) {
-    greeting = 'Bra jobbat';
-  } else if (trainingTime == maxTime) {
+  if (trainingTime >= maxTime) {
     greeting = 'Det var hurtigt av dig men kom ihåg att chilla lite emellanåt';
+  } else if (trainingTime >= minTime) {
+    greeting = 'Bra jobbat';
   } else {
     greeting = 'Bättre kan du';
   }
   document.getElementById('displayContainer').innerHTML = greeting;
   return `Hej you have trained ${trainingTime} minutes ! ${greeting}`;
 }
-
-const timer1 = timer(trainingTime);
-console.log(timer);
-document.getElementById('displayContainer').innerHTML = timer;

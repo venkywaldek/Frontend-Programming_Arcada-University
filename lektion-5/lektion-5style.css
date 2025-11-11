@@ -1,0 +1,62 @@
+.title {
+  color: blue;
+  background-color: lightgray;
+  background: wheat;
+  font-weight: bold;
+  height: 50px;
+  width: 400px;
+  border-radius: 10px;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  color: blue;
+  background-color: lightgray;
+  background: wheat;
+  font-weight: bold;
+  height: 50px;
+  width: 400px;
+  border-radius: 10px;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+#utvilad {
+  color: red;
+  background-color: white;
+}
+#output {
+  color: green;
+  background-color: yellow;
+  font-weight: 500;
+  font-size: larger;
+  height: 100px;
+  width: 400px;
+  align-items: center;
+  padding: 12px;
+  border-radius: 10px;
+}
+
+.btn {
+  background-color: lightblue;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+input {
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
