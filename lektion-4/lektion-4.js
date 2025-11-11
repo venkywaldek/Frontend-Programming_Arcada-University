@@ -58,6 +58,7 @@ const persons = [
   { name: 'Ahmak', likes: 'Frukost' },
   { name: 'Pushpa', likes: 'ödmjuk' },
   { name: 'bebisen', likes: 'girighet' },
+  { name: 'niraj', likes: 'java' },
 ];
 
 console.log();
