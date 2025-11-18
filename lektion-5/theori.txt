@@ -1,0 +1,10 @@
+Iterera över arrays , del 2
+
+-Det finns också  andra sätt att iterera än en vanlig for-loop , t.ex
+
+Arrow functions //Pilfunktioner 
+//Traditionellt syntax function () {}
+//Pilsyntax  () => {}
+const hello = () => {
+  console.log('hello')
+} 
