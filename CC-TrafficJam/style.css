@@ -1,0 +1,18 @@
+.title {
+  background-color: aqua;
+  font-style: italic;
+  background: red;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 5px;
+  height: 30px;
+  width: 150px;
+}
+
+#lights > div {
+  width: 100px;
+  height: 100px;
+  border: 1px solid;
+  border-radius: 50px;
+  gap: 2px;
+}
