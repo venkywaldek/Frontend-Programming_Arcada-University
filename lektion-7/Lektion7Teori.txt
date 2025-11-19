@@ -1,0 +1,12 @@
+I javascripty hanterar vi datum och klockslag  och klockslag med ett date-object:
+
+const d = new Date()
+
+d.getFullYear() 
+d.getMonth() // månad 0-11
+d.getDate() dag 1-31
+d.getHours() // Timmer 0-23
+d.getMinutes()  //minuter 0-59
+d.getDay() // veckodag 0-6 
+
+Lightbox 

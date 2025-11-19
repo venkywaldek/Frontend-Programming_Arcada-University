@@ -9,6 +9,10 @@
   width: 150px;
 }
 
-.form-output {
-  font-size: larger;
+#lights > div {
+  width: 100px;
+  height: 100px;
+  border: 1px solid;
+  border-radius: 50px;
+  gap: 2px;
 }
