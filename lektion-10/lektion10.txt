@@ -1,0 +1,8 @@
+JSon -javascript object notation
+
+-Används för kommunikation mellan datorer (tex:webbapp och server)
+
+största fördelen : människorkäsbart
+Är också människoskrivbart , använda därför ibland flr tex konfigurationfiler
+
+

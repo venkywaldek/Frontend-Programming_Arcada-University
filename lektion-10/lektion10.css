@@ -1,0 +1,10 @@
+body{
+  background-color: black;
+}
+.title{
+  font-weight: 700;
+  background-color: aquamarine;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid  ;
+}
