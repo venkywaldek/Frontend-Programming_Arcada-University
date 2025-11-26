@@ -5,4 +5,9 @@ JSon -javascript object notation
 största fördelen : människorkäsbart
 Är också människoskrivbart , använda därför ibland flr tex konfigurationfiler
 
+JSON inte är alltid optimala utrymme objekt
 
+i JS kan JSON konverteras med skapas med JSON.stringify(obj) och JSON.parse(str)
+
+JSON.stringify( { "product": bulle ,
+   price: 2.5 },)
